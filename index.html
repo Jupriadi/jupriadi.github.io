@@ -234,7 +234,7 @@
         // let text = GetURLParameter("tamu")
         // let pas = text.replace("_"," ")
         let tamu = document.getElementById("tamu");
-        tamu.innerHTML = GetURLParameter('tamu').replace("_"," ");
+        tamu.innerHTML = GetURLParameter('tamu').replaceAll("_"," ");
     </script>
     <script>
         var countDownDate = new Date("Oct 12, 2022 11:01:01").getTime();
